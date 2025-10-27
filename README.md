@@ -55,5 +55,3 @@ A developer-friendly demo showing how to wrap a Node.js microservice with an MCP
 - All errors are returned in a consistent format.
 
 ---
-
-For more, see code comments in each folder. Happy hacking!
