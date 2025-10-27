@@ -1,0 +1,23 @@
+{
+  "name": "mcp-microservice-complete-example",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Complete example of MCP server wrapping a microservice",
+  "scripts": {
+    "microservice": "node src/microservice/server.js",
+    "mcp-server": "node src/mcp-server/index.js",
+    "client": "node src/mcp-client/index.js",
+    "start": "npm run microservice",
+    "test-client": "npm run client"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.2",
+    "dotenv": "^16.3.1",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0"
+  }
+}
